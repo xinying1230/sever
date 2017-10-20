@@ -1,0 +1,16 @@
+
+<div class="tabs">
+    <ul class="uls text-center" >
+        <li class="col-xs-3" ng-class="{bg:$first}"  ng-repeat="tab in tabs">{{tab.title}}</li>
+    </ul>
+
+</div>
+<div class="ols">
+    <dl ng-repeat="tab in tabs">
+        <dt><img ng-src="{{tab.images}}" alt=""></dt>
+        <dd>
+            <h3>{{tab.news}}</h3>
+            <p>{{tab.times}}</p>
+        </dd>
+    </dl>
+</div>

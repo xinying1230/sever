@@ -1,0 +1,231 @@
+body {
+  font-size: 0.12rem;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  background-color: #ededed; }
+
+.header {
+  height: 0.47rem;
+  background-color: #fff;
+  line-height: 0.45rem; }
+  .header h1 {
+    line-height: 0.45rem;
+    text-align: center;
+    font-size: 0.17rem; }
+    .header h1 a {
+      display: inline-block;
+      line-height: 0.45rem;
+      padding: 0 0.1rem; }
+  .header .icon {
+    position: absolute;
+    right: 0.2rem;
+    top: 0; }
+
+.bord {
+  font-weight: 800;
+  border-bottom: 2px #1b6d85 solid !important; }
+
+.center {
+  -webkit-flex: 1;
+  overflow: hidden;
+  position: relative; }
+  .center #swiper,
+  .center .swiper-wrapper,
+  .center .swiper-slide {
+    height: auto; }
+    .center #swiper img,
+    .center .swiper-wrapper img,
+    .center .swiper-slide img {
+      width: 100%;
+      height: 100%; }
+    .center #swiper span,
+    .center .swiper-wrapper span,
+    .center .swiper-slide span {
+      width: 20px;
+      height: 0.05rem;
+      background-color: #fff;
+      border-radius: 0; }
+  .center .message {
+    display: -webkit-flex;
+    padding-top: 0.2rem;
+    background-color: #fff; }
+    .center .message dl {
+      -webkit-flex: 1;
+      text-align: center; }
+      .center .message dl dt i {
+        width: 0.5rem;
+        height: 0.5rem;
+        font-size: 0.2rem;
+        line-height: 0.5rem;
+        background-color: red;
+        border-radius: 100%;
+        color: #fff; }
+      .center .message dl dd {
+        font-size: 0.16rem;
+        padding-top: 0.1rem;
+        padding-bottom: 0.1rem; }
+  .center .tu {
+    height: auto; }
+    .center .tu img {
+      width: 100%;
+      height: 100%; }
+  .center .sever {
+    height: auto;
+    background-color: #fff; }
+    .center .sever h2 {
+      font-size: 0.17rem;
+      font-weight: 800;
+      line-height: 2;
+      padding-left: 0.1rem; }
+    .center .sever .uls {
+      display: -webkit-flex;
+      flex-wrap: wrap; }
+      .center .sever .uls li {
+        width: 25%;
+        border-top: 1px #ccc solid;
+        border-right: 1px #ccc solid;
+        text-align: center;
+        padding-top: 0.05rem;
+        padding-bottom: 0.05rem; }
+        .center .sever .uls li i {
+          line-height: 2;
+          font-size: 0.3rem; }
+        .center .sever .uls li p {
+          line-height: 2;
+          font-size: 0.15rem; }
+  .center .time {
+    height: 0.45rem;
+    background-color: #fff;
+    margin-top: 0.1rem;
+    padding-left: 0.15rem;
+    padding-right: 0.15rem;
+    box-sizing: border-box; }
+    .center .time span {
+      font-size: 0.17rem;
+      font-weight: 800;
+      line-height: 0.45rem; }
+    .center .time .times {
+      padding-top: 0.11rem; }
+      .center .time .times b {
+        display: inline-block;
+        width: 0.25rem;
+        height: 0.25rem;
+        background-color: #555;
+        text-align: center;
+        line-height: 0.25rem;
+        color: #fff; }
+  .center #hswiper,
+  .center .swiper-wrapper {
+    width: 100%;
+    height: 1.5rem;
+    background-color: #fff; }
+    .center #hswiper .swiper-slide,
+    .center .swiper-wrapper .swiper-slide {
+      height: 1.5rem;
+      border: 1px #ccc solid;
+      margin-right: 0.1rem; }
+      .center #hswiper .swiper-slide img,
+      .center .swiper-wrapper .swiper-slide img {
+        width: 100%;
+        height: 0.9rem; }
+      .center #hswiper .swiper-slide .h4,
+      .center .swiper-wrapper .swiper-slide .h4 {
+        font-size: 0.14rem; }
+  .center .dong {
+    height: auto;
+    margin-top: 0.15rem;
+    background-color: #fff; }
+    .center .dong h2 {
+      padding-left: 0.15rem;
+      padding-right: 0.15rem;
+      font-size: 0.17rem;
+      padding-top: 0.05rem;
+      padding-bottom: 0.1rem; }
+      .center .dong h2 span {
+        font-weight: 800; }
+      .center .dong h2 .float-right {
+        font-size: 0.14rem !important;
+        color: #b9b9b9;
+        font-weight: 400;
+        padding-top: 0.03rem; }
+    .center .dong .olli {
+      padding-left: 0 !important;
+      padding-right: 0 !important; }
+    .center .dong .olli > li {
+      border-left: 1px #ccc solid;
+      border-top: 1px #ccc solid; }
+      .center .dong .olli > li h5 {
+        font-size: 0.16rem; }
+      .center .dong .olli > li img {
+        width: 100%;
+        height: 1rem; }
+  .center .cai {
+    background-color: #fff;
+    padding-left: 0.15rem;
+    padding-right: 0.15rem;
+    margin-top: 0.1rem; }
+    .center .cai h3 {
+      font-size: 0.17rem;
+      padding-top: 0.05rem;
+      padding-bottom: 0.1rem; }
+      .center .cai h3 span {
+        font-weight: 800;
+        padding-top: 0.03rem; }
+      .center .cai h3 .float-right {
+        font-size: 0.14rem !important;
+        color: #b9b9b9;
+        font-weight: 400; }
+  .center .bus {
+    background-color: #fff; }
+    .center .bus .bus-car {
+      border-top: 1px #ccc solid;
+      border-right: 1px #ccc solid; }
+      .center .bus .bus-car p {
+        padding-top: 0.3rem; }
+      .center .bus .bus-car h3 {
+        font-size: 0.17rem;
+        padding-top: 0.2rem;
+        padding-bottom: 0.2rem; }
+      .center .bus .bus-car b {
+        font-size: 0.15rem;
+        font-weight: 100;
+        color: #9d9d9d;
+        display: block; }
+      .center .bus .bus-car strong {
+        padding-top: 0.15rem;
+        display: inline-block;
+        padding-bottom: 0.2rem;
+        font-size: 0.16rem;
+        font-weight: 100;
+        padding-right: 0.1rem; }
+      .center .bus .bus-car span {
+        text-decoration: line-through;
+        color: #d2d2d2; }
+      .center .bus .bus-car img {
+        width: 100%;
+        height: 100%; }
+
+.footer {
+  background-color: #fbfbfb;
+  display: -webkit-flex; }
+  .footer dl {
+    -webkit-flex: 1;
+    text-align: center; }
+    .footer dl dt {
+      font-size: 0.2rem;
+      color: #b1b1b1; }
+    .footer dl dd {
+      padding-top: 0.05rem; }
+
+#pullUp {
+  text-align: center;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  background: #ccc;
+  margin-top: 0.1rem; }
+
+/*# sourceMappingURL=style.css.map */

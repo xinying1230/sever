@@ -1,0 +1,47 @@
+[
+  {
+    "images":"./Content/images/car_1.jpg",
+    "img":"./Content/images/banner_1.jpg",
+    "title":"上海大众—全新旅游L",
+    "contents":"上海大众—全新旅游L享2年0利率",
+    "money":"1元",
+    "stro":"1.44万",
+    "image":"./Content/images/hot_1.jpg",
+    "bu":"补胎工具简易",
+    "pic":"￥9.9元"
+},
+  {
+    "images":"./Content/images/car_2.jpg",
+    "img":"./Content/images/banner_2.jpg",
+    "title":"上汽大众—全新旅游L",
+    "contents":"上汽大众—全新旅游L享2年0利率",
+    "money":"1元",
+    "stro":"1.44万",
+    "image":"./Content/images/hot_2.jpg",
+    "bu":"补胎工具简易",
+    "pic":"￥9.9元"
+  },
+
+  {
+    "images":"./Content/images/car_1.jpg",
+    "img":"./Content/images/banner_3.jpg",
+    "title":"上汽大众—全新旅游L",
+    "contents":"上汽大众—全新旅游L享2年0利率",
+    "money":"1元",
+    "stro":"1.44万",
+    "image":"./Content/images/hot_1.jpg",
+    "bu":"补胎工具简易",
+    "pic":"￥9.9元"
+  },
+  {
+    "images":"./Content/images/car_2.jpg",
+    "img":"./Content/images/banner_1.jpg",
+    "title":"上汽大众—全新旅游L",
+    "contents":"上汽大众—全新旅游L享2年0利率",
+    "money":"1元",
+    "stro":"1.44万",
+    "image":"./Content/images/hot_2.jpg",
+    "bu":"补胎工具简易",
+    "pic":"￥9.9元"
+  }
+]

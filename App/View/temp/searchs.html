@@ -1,0 +1,173 @@
+
+<div class="scroller">
+    <div class="swiper-container" id="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" ng-repeat="ban in shuju">
+                <img ng-src="{{ban.img}}" alt="">
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <div class="message">
+        <dl>
+            <dt>
+                <i class="fa fa-id-card"></i>
+            </dt>
+            <dd>车商城</dd>
+        </dl>
+        <dl>
+            <dt>
+                <i class="fa fa-id-badge"></i>
+            </dt>
+            <dd>分期购车</dd>
+        </dl>
+        <dl>
+            <dt>
+                <i class="fa fa-tasks"></i>
+            </dt>
+            <dd>团购活动</dd>
+        </dl>
+        <dl>
+            <dt>
+                <i class="fa fa-file-image-o"></i>
+            </dt>
+            <dd>找二手车</dd>
+        </dl>
+    </div>
+    <div class="tu">
+        <img src="Content/images/baoy_04.jpg" alt="">
+    </div>
+    <div class="sever">
+        <h2>车主服务</h2>
+        <ul class="uls">
+            <li>
+                <i class="fa fa-file-zip-o (alias) text-blue"></i>
+
+                <p>油卡充值</p>
+            </li>
+            <li>
+                <i class="fa fa-toggle-down (alias) text-orange"></i>
+
+                <p>洗车</p>
+            </li>
+            <li>
+                <i class="fa fa-hand-o-up text-gray"></i>
+
+                <p>违章代缴</p>
+            </li>
+            <li>
+                <i class="fa fa-coffee text-red"></i>
+
+                <p>油卡充值</p>
+            </li>
+            <li>
+                <i class="fa fa-cubes text-highlight-blue"></i>
+
+                <p>免费测评</p>
+            </li>
+            <li>
+                <i class="fa fa-fire-extinguisher text-danger"></i>
+
+                <p>查周围</p>
+            </li>
+            <li>
+                <i class="fa fa-plus-circle text-light-red"></i>
+
+                <p>车主卡</p>
+            </li>
+            <li>
+                <i class="fa fa-registered text-light-gray"></i>
+
+                <p>领卷保修</p>
+            </li>
+            <li>
+                <i class="fa fa-star-half-empty (alias) text-success"></i>
+
+                <p>低价保修</p>
+            </li>
+            <li>
+                <i class="fa fa-search-minus text-dark-orange"></i>
+
+                <p>4s店保养</p>
+            </li>
+            <li>
+                <i class="fa fa-snowflake-o text-light-blue"></i>
+
+                <p>品质轮胎</p>
+            </li>
+            <li>
+                <i class="fa fa-sitemap"></i>
+
+                <p>车品商城</p>
+            </li>
+        </ul>
+    </div>
+    <div class="time">
+        <span>限时抢购</span>
+
+        <div class="times float-right">
+            <b>13</b> <strong>:</strong> <b>13</b> <strong>:</strong> <b>13</b>
+        </div>
+    </div>
+    <div class="swiper-container" id="hswiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" ng-repeat="bu in shuju">
+                <p><img ng-src="{{bu.image}}" alt=""></p>
+                <h4 class="f12 pt10 pl5">{{bu.bu}}</h4>
+                <h6 class="text-dark-orange pl5">{{bu.pic}}</h6>
+            </div>
+        </div>
+
+    </div>
+    <div class="dong clearfix">
+        <h2>
+            <span>活动专区</span>
+        <span class="float-right">
+            活动更多
+            <i class="fa fa-angle-right "></i>
+        </span>
+        </h2>
+        <ol class="olli col-xs-12 ">
+            <li class="col-xs-4 ">
+                <h5 class="text-nobr">侧身家炫富</h5>
+
+                <p class="text-dark-orange">身价大PK</p>
+                <img src="Content/images/shen_1_15.jpg" alt="">
+            </li>
+            <li class="col-xs-4">
+                <h5 class="text-nobr">侧身家炫富</h5>
+
+                <p class="text-dark-orange">身价大PK</p>
+                <img src="Content/images/quan_1_18.jpg" alt="">
+            </li>
+            <li class="col-xs-4">
+                <h5 class="text-nobr">侧身家炫富</h5>
+
+                <p class="text-dark-orange">身价大PK</p>
+                <img src="Content/images/shen_1_15.jpg" alt="">
+            </li>
+        </ol>
+    </div>
+
+    <div class="cai">
+        <h3>
+            <span>猜你喜欢</span>
+        <span class="float-right">
+            更多
+            <i class="fa fa-angle-right "></i>
+        </span>
+        </h3>
+    </div>
+    <div class="bus clearfix">
+        <div class="bus-car col-xs-6" ng-repeat="cars in shuju">
+                <p><img ng-src="{{cars.images}}" alt=""></p>
+                <h3 class="text-nobr">{{cars.title}}</h3>
+                 <b>{{cars.contents}}</b>
+                 <strong class="text-dark-orange">{{cars.money}}</strong>
+                  <span>{{cars.stro}}</span>
+        </div>
+    </div>
+        <div class="button" id="pullUp">
+            <p>加载更多</p>
+        </div>
+</div>
